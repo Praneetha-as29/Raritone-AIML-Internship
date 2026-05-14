@@ -104,4 +104,4 @@ The project successfully improved pose detection accuracy and demonstrated the u
 ## Note
 - Performance depends on lighting conditions  
 - Detection accuracy may vary with body visibility  
-- Measurements are approximate and based on pixel values 
+- Measurements are approximate and based on pixel values
