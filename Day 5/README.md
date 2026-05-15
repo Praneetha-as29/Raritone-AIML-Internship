@@ -82,3 +82,124 @@ Studied datasets used in AI virtual try-on systems and fashion technology applic
 A basic implementation was explored using Google Colab to understand how datasets can be loaded and processed using Python.
 
 #### Sample Code
+
+
+from tensorflow.keras.datasets import fashion_mnist
+
+(trainX, trainY), (testX, testY) = fashion_mnist.load_data()
+
+print("Training Data Shape:", trainX.shape)
+print("Testing Data Shape:", testX.shape)
+
+
+### Observation
+
+- The dataset contains thousands of labeled images  
+- Each image is 28 × 28 pixels  
+- Data is structured and ready for machine learning tasks  
+
+The research explored how datasets are used to train machine learning models for virtual clothing simulation systems.
+
+---
+
+## 4. Outfit Recommendation Logic Development
+
+Studied how Artificial Intelligence recommends clothing combinations using customer preferences and fashion analysis.
+
+### Concepts Studied
+
+- Personalized fashion recommendation  
+- Outfit matching logic  
+- Color compatibility analysis  
+- Customer preference prediction  
+- AI shopping assistance  
+
+### Features Explored
+
+- Smart outfit generation  
+- Fashion recommendation systems  
+- Intelligent shopping workflows  
+- Digital wardrobe systems  
+
+The task focused on understanding how AI systems generate personalized outfit suggestions using machine learning techniques.
+
+---
+
+## 5. AI Avatar Generation Workflow Study
+
+Researched Artificial Intelligence systems used for digital human avatar generation and virtual character modelling.
+
+### Topics Covered
+
+- AI avatar generation  
+- Digital human modelling  
+- Facial landmark tracking  
+- Virtual character rendering  
+- Motion tracking systems  
+
+### Applications Explored
+
+- Gaming systems  
+- Metaverse platforms  
+- Digital fashion technology  
+- AI virtual assistants  
+- Virtual communication systems  
+
+The research focused on understanding how AI creates animated digital human avatars using computer vision and deep learning methods.
+
+---
+
+# Technologies Used
+
+- Python  
+- OpenCV  
+- MediaPipe  
+- TensorFlow  
+- Artificial Intelligence  
+- Computer Vision  
+- Machine Learning  
+- Deep Learning  
+
+---
+
+# Deliverables
+
+- Improved body landmark detection system  
+- AI clothing fitting research documentation  
+- Virtual try-on dataset study  
+- Outfit recommendation logic notes  
+- AI avatar generation workflow research  
+- AI testing screenshots  
+- Computer vision research documentation  
+
+---
+
+# Learning Outcomes
+
+During Day 5 tasks, the following concepts and skills were learned:
+
+- Advanced body landmark detection  
+- Pose estimation optimization  
+- Clothing fitting workflows  
+- Virtual try-on dataset analysis  
+- Outfit recommendation systems  
+- AI avatar generation workflows  
+- Computer vision applications  
+- AI fashion technology systems  
+
+---
+
+# Conclusion
+
+Day 5 provided practical exposure to advanced Artificial Intelligence and Computer Vision technologies used in modern fashion technology systems and digital human modelling applications.
+
+The tasks improved understanding of:
+
+- Body landmark tracking  
+- AI clothing fitting systems  
+- Fashion datasets  
+- Intelligent recommendation systems  
+- Avatar generation workflows  
+- Real-time computer vision processing  
+
+This is an AI/ML Internship practical assignment focused on Artificial Intelligence, Computer Vision, Fashion Technology, Pose Estimation, and Digital Human Modelling Systems.
