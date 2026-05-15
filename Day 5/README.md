@@ -53,35 +53,39 @@ Conducted detailed research on AI-based clothing fitting systems and virtual gar
 - Personalized clothing systems  
 - Smart retail technology  
 
-The research focused on understanding how AI systems digitally simulate clothing fitting using body tracking and computer vision methods.
-
 ---
 
 ## 3. Virtual Try-On Dataset Research
 
 Studied datasets used in AI virtual try-on systems and fashion technology applications.
 
-### Dataset Research Areas
+### Datasets Explored
 
-- Fashion image datasets  
-- Pose estimation datasets  
-- Human segmentation datasets  
-- Clothing annotation systems  
-- AI training workflows  
+#### 1. Fashion-MNIST Dataset
+- Grayscale clothing images  
+- Image size: 28 × 28 pixels  
+- Used for basic image classification tasks  
+- Suitable for beginner AI models  
 
-### Popular Datasets Studied
+#### 2. DeepFashion Dataset
+- Real-world clothing images  
+- High-resolution data  
+- Includes attributes such as color, style, and texture  
+- Used for advanced AI applications  
 
-- DeepFashion  
-- VITON Dataset  
-- Fashion-MNIST  
-- ATR Dataset  
-- CIHP Dataset  
+### Comparison
 
-### Google Colab Demonstration (Optional)
+| Feature | Fashion-MNIST | DeepFashion |
+|--------|--------------|-------------|
+| Image Type | Grayscale | Color images |
+| Complexity | Low | High |
+| Dataset Size | Small | Large |
+| Use Case | Beginner models | Advanced applications |
+| Real-world Data | No | Yes |
 
-A basic implementation was explored using Google Colab to understand how datasets can be loaded and processed using Python.
+### Google Colab Demonstration
 
-#### Sample Code
+A simple dataset loading was performed using Google Colab:
 
 
 from tensorflow.keras.datasets import fashion_mnist
@@ -89,16 +93,13 @@ from tensorflow.keras.datasets import fashion_mnist
 (trainX, trainY), (testX, testY) = fashion_mnist.load_data()
 
 print("Training Data Shape:", trainX.shape)
-print("Testing Data Shape:", testX.shape)
 
 
 ### Observation
 
-- The dataset contains thousands of labeled images  
-- Each image is 28 × 28 pixels  
-- Data is structured and ready for machine learning tasks  
-
-The research explored how datasets are used to train machine learning models for virtual clothing simulation systems.
+- Dataset contains large number of labeled images  
+- Easy to load and process  
+- Ready for machine learning tasks  
 
 ---
 
@@ -121,8 +122,6 @@ Studied how Artificial Intelligence recommends clothing combinations using custo
 - Intelligent shopping workflows  
 - Digital wardrobe systems  
 
-The task focused on understanding how AI systems generate personalized outfit suggestions using machine learning techniques.
-
 ---
 
 ## 5. AI Avatar Generation Workflow Study
@@ -144,8 +143,6 @@ Researched Artificial Intelligence systems used for digital human avatar generat
 - Digital fashion technology  
 - AI virtual assistants  
 - Virtual communication systems  
-
-The research focused on understanding how AI creates animated digital human avatars using computer vision and deep learning methods.
 
 ---
 
