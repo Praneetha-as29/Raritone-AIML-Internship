@@ -2,7 +2,7 @@
 ## Raritone Summer Internship 2026
 
 ### Intern
-Praneetha
+Praneetha Ayyana Somayajulu
 
 ### Role
 AI/ML Intern
