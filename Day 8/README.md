@@ -1,49 +1,71 @@
 # AI/ML Internship — Day 8
 
-## Module 3 & Module 4 Research
+## Module 3 & Module 4
 
-### Objective
-
-Research and understand the fundamental concepts behind AI-powered Fashion Technology, including clothing segmentation, fashion datasets, Virtual Try-On pipelines, and AI fitting systems.
+### Research on Clothing Segmentation AI and Virtual Try-On Technologies
 
 ---
 
-## Module 3 — Clothing Segmentation AI
+## Objective
 
-### Topics Covered
+Study the core Artificial Intelligence technologies used in modern fashion applications, including clothing segmentation, fashion datasets, Virtual Try-On pipelines, and AI-based garment fitting systems.
 
-- DeepFashion Dataset
-- Fashion Image Annotations
+---
+
+# Module 3 — Clothing Segmentation AI
+
+## Topics Covered
+
+### DeepFashion Dataset
+- Dataset overview
+- Dataset structure
+- Fashion image annotations
+- Clothing categories
+- AI applications
+
+### Image Segmentation
 - Semantic Segmentation
 - Instance Segmentation
 - Panoptic Segmentation
+
+### Segmentation Models
+- Fully Convolutional Network (FCN)
 - U-Net
 - Mask R-CNN
 - DeepLabV3+
 - SegFormer
 
-### Practical Demonstration
+### Practical Implementation
 
-Implemented a basic garment boundary detection prototype using OpenCV image processing techniques to understand the fundamentals of clothing segmentation.
+Implemented a simple image segmentation prototype using Python and OpenCV to understand the basic concept of foreground-background separation.
 
 ---
 
-## Module 4 — Virtual Try-On Pipelines & AI Fitting Systems
+# Module 4 — AI-Based Virtual Try-On Systems
 
-### Topics Covered
+## Topics Covered
 
-- Virtual Try-On Workflow
+### Virtual Try-On Technology
+- AI in Fashion
+- Digital Garment Visualization
 - Human Detection
 - Body Segmentation
 - Pose Estimation
-- Garment Alignment
+
+### Garment Processing
+- Clothing Alignment
 - Garment Warping
-- AI Fitting Systems
 - Image Synthesis
+- AI Fitting Systems
 
-### Practical Demonstration
+### Warping Techniques Studied
+- Thin Plate Spline (TPS)
+- Geometric Matching Module (GMM)
+- Flow-Based Warping
 
-Developed a simple OpenCV-based Virtual Try-On prototype by overlaying a garment image onto a user image to simulate the basic workflow of digital clothing fitting.
+### Practical Implementation
+
+Developed a basic Virtual Try-On prototype using Python and OpenCV by overlaying a garment image onto a user image to simulate digital clothing fitting.
 
 ---
 
@@ -53,22 +75,25 @@ Developed a simple OpenCV-based Virtual Try-On prototype by overlaying a garment
 - OpenCV
 - Computer Vision
 - Image Processing
+- Artificial Intelligence Concepts
 
 ---
 
 ## Applications
 
 - Virtual Try-On Systems
-- AI Fashion Platforms
+- Fashion E-Commerce
 - Smart Retail
+- AI Fashion Assistants
 - Clothing Recommendation Systems
-- Digital Shopping Experiences
+- Digital Wardrobe Platforms
 
 ---
 
 ## Project Structure
 
 ```
+
 Day-8
 │
 ├── README.md
@@ -80,6 +105,7 @@ Day-8
 ├── shirt.png
 ├── segmentation_output.jpg
 └── virtual_tryon_output.jpg
+
 ```
 
 ---
@@ -88,13 +114,13 @@ Day-8
 
 - Understanding fashion AI datasets.
 - Learning image segmentation techniques.
-- Studying Virtual Try-On architectures.
-- Exploring garment alignment methods.
-- Understanding AI-based fitting systems.
-- Applying basic computer vision concepts through practical implementations.
+- Exploring Virtual Try-On architectures.
+- Understanding body detection and pose estimation.
+- Studying garment warping methods.
+- Implementing basic computer vision prototypes.
 
 ---
 
 ## Conclusion
 
-Day 8 focused on studying the core technologies behind AI-driven fashion applications. The research covered clothing segmentation methods, DeepFashion datasets, Virtual Try-On pipelines, and AI fitting systems. Practical implementations using OpenCV helped reinforce the concepts of image segmentation and digital garment overlay, providing a strong foundation for future Virtual Try-On development.
+Day 8 focused on understanding the Artificial Intelligence technologies that power modern fashion applications. The study explored clothing segmentation, DeepFashion datasets, Virtual Try-On pipelines, and AI-based garment fitting systems. Practical implementations using OpenCV provided hands-on experience with image segmentation and digital garment overlay, strengthening the understanding of AI-driven fashion technologies.
