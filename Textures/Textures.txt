@@ -1,0 +1,22 @@
+# Textures
+
+## Overview
+
+This folder is reserved for texture files that may be used in future Virtual Try-On, 3D Avatar Generation, and Human Reconstruction projects.
+
+## Intended Contents
+
+* Clothing Textures
+* Fabric Textures
+* Avatar Skin Textures
+* Material Maps
+* Surface Detail Textures
+* Rendering Assets
+
+## Purpose
+
+Textures help improve the visual realism of 3D models by providing color, material, and surface information. These assets can be used in Blender and other 3D applications for avatar rendering, garment visualization, and virtual fashion simulations.
+
+## Status
+
+Currently no texture files have been added. This folder is maintained for future development and asset expansion.
