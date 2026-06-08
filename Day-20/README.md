@@ -1,4 +1,4 @@
-# AI/ML Internship — Team Collaboration and Business Workflow Study
+# AI/ML Internship — Research And Development
 
 ## AI-Powered Fashion Commerce Platform
 
