@@ -10,7 +10,9 @@ The repository is organized day-wise and demonstrates my learning journey from t
 
 # Internship Duration
 
-**Duration:** 20 Days
+**Duration:** 30 Days
+**Individual Assignments** 20 Days
+**Final AIML Project** 10 days
 
 **Role:** AI/ML Intern
 
@@ -247,7 +249,7 @@ The experience also strengthened my research, documentation, problem-solving, an
 
 # Author
 
-**Praneetha**
+**Praneetha AS**
 
 AI/ML Intern
 
