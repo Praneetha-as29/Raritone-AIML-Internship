@@ -2,146 +2,207 @@
 
 ## 📌 Project Overview
 
-RARITONE is an AI-powered demand forecasting system built using Facebook Prophet to analyze **RARITONE’s official dataset (CSV-based)** and generate intelligent business insights.
+RARITONE is an AI-powered demand forecasting and business intelligence system developed as part of the **Raritone Summer Internship 2026**. The project integrates Artificial Intelligence, Machine Learning, Computer Vision, and Business Analytics to support intelligent decision-making across the Raritone platform.
 
-It is designed for real-world integration with the RARITONE backend dataset to support:
+This repository showcases my individual AI/ML work completed during the internship, including research, documentation, implementation planning, datasets, Python programs, forecasting modules, and AI workflow design.
 
-- 📈 Demand Forecasting
-- 📦 Inventory Optimization
-- 📊 Trend & Seasonality Analysis
+The project is designed for integration with the Raritone backend ecosystem and supports future deployment of AI-powered business solutions.
 
 ---
 
-# 🧠 What I Built
+# 🧠 Internship Work Completed
 
-This system consists of **3 independent forecasting modules**, each working on the same RARITONE dataset but producing different business insights.
+Throughout the internship, I worked on:
 
----
-
-# 📁 Dataset Information (IMPORTANT)
-
-## ⚠️ Official Dataset Used
-
-All modules use:
-
-👉 **RARITONE Dataset (CSV file provided by backend system)**
-
-### Required Dataset Structure:
-
-- A valid **Date column** (Order Date or equivalent)
-- A valid **numeric column** (Sales or Quantity)
-- Cleaned and preprocessed data (no null values)
-
----
-
-## 🧹 Dataset Rule
-
-Before processing:
-
-- Date must be converted using `pd.to_datetime()`
-- Numeric column must be converted using `pd.to_numeric()`
-- Missing values must be removed
+* AI/ML Research & Development
+* Computer Vision
+* Virtual Try-On Technologies
+* Garment Detection
+* Background Removal
+* Garment Segmentation
+* Pose Detection
+* 3D Avatar Generation
+* Human Body Reconstruction
+* Blender Exploration
+* Dataset Collection & Organization
+* Demand Forecasting
+* Inventory Forecasting
+* Trend Forecasting
+* AI Workflow Design
+* Technical Documentation
+* GitHub Repository Management
 
 ---
 
-# 📦 1. inventoryForecast.py
+# 📁 Repository Structure
 
-## 🎯 Purpose
-Product-level demand forecasting + inventory optimization using RARITONE dataset.
+This repository contains:
 
-## 💡 What it does
-- Filters product-level data from RARITONE dataset
-- Aggregates time-series demand
-- Applies Prophet forecasting model
-- Generates:
-  - Future demand prediction
-  - Inventory requirement
-  - Reorder quantity
-  - Growth trend analysis
-
-## 📊 Output
-- 6-month product demand forecast
-- Inventory recommendation system
-- Market trend classification
-- Visualization dashboard
+* Daily Internship Tasks (Day 1 – Day 20)
+* Research Reports
+* Documentation
+* Python Programs
+* AI Workflow Diagrams
+* Screenshots
+* Blender Projects
+* Datasets & Assets
+* Final Presentation
+* Project Reports
 
 ---
 
-# 📊 2. productDemand.py
+# 📊 AI Modules Developed
 
-## 🎯 Purpose
-Forecasts **overall demand using RARITONE dataset (no filtering)**.
+## Virtual Try-On Research
 
-## 💡 What it does
-- Uses complete RARITONE dataset
-- Aggregates total sales over time
-- Applies Prophet forecasting
-- Predicts next 6 months demand
-
-## 📊 Output
-- Demand forecast report
-- Expected / min / max demand
-- Trend visualization graph
+* Garment Detection
+* Background Removal
+* Garment Segmentation
+* Garment Quality Validation
+* Pose Detection
+* AI Analytics
 
 ---
 
-# 📈 3. trendForecasting.py
+## Demand Forecasting
 
-## 🎯 Purpose
-Analyzes **demand trends and seasonality patterns from RARITONE dataset**.
+### inventoryForecast.py
 
-## 💡 What it does
-- Uses same RARITONE dataset as productDemand module
-- Focuses on:
-  - Long-term trend direction
-  - Seasonal variations
-  - Demand behavior over time
-- Generates advanced visualization insights
+Forecasts future product demand and inventory requirements using the Raritone dataset.
 
-## 📊 Output
-- Trend analysis graph
-- Seasonality insights
-- Demand behavior interpretation
+Outputs:
+
+* Product Demand Forecast
+* Inventory Recommendation
+* Growth Analysis
+* Forecast Visualization
 
 ---
 
-# 📌 Key System Features
+### productDemand.py
 
-✔ Works on RARITONE official dataset  
-✔ Modular architecture (3 independent ML pipelines)  
-✔ Time-series forecasting using Prophet  
-✔ Inventory optimization logic  
-✔ Business insight generation  
-✔ Trend and seasonality analysis  
+Predicts overall product demand using the complete Raritone dataset.
+
+Outputs:
+
+* Demand Forecast
+* Trend Visualization
+* Expected Future Sales
 
 ---
 
-# 📁 Dataset Dependency
+### trendForecasting.py
 
-All modules depend on:
+Analyzes long-term demand trends and seasonal behavior.
 
-👉 **RARITONE CSV Dataset (provided by backend team)**
+Outputs:
 
-### Required fields:
-- Date column (Order Date or equivalent)
-- Numeric column (Sales or Quantity)
+* Trend Analysis
+* Seasonality Analysis
+* Business Insights
+
+---
+
+# 📁 Dataset Information
+
+The forecasting modules use the official **RARITONE CSV dataset** provided by the backend team.
+
+Required dataset fields:
+
+* Date (Order Date or equivalent)
+* Sales / Quantity
+* Cleaned numerical data
+
+Pre-processing includes:
+
+* Date conversion
+* Numeric conversion
+* Missing value handling
+
+---
+
+# 🛠 Technologies Used
+
+### Programming
+
+* Python
+
+### AI / ML
+
+* Machine Learning
+* Computer Vision
+* Image Processing
+* Time-Series Forecasting
+
+### Frameworks & Libraries
+
+* OpenCV
+* TensorFlow
+* PyTorch
+* MediaPipe
+* YOLOv8
+* Prophet
+* Detectron2 (Research)
+* Segment Anything Model (Research)
+
+### 3D Technologies
+
+* Blender
+* SMPL
+* PIFuHD
+* ICON
+* HumanNeRF
+* 3D Gaussian Splatting
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Google Colab
+* Jupyter Notebook
 
 ---
 
 # 🚀 Business Value
 
-This system enables RARITONE to:
+The AI solutions explored during the internship aim to:
 
-- Predict future product demand
-- Optimize inventory levels
-- Reduce overstocking & shortages
-- Understand seasonal demand patterns
-- Improve business decision-making using AI
+* Improve demand prediction
+* Optimize inventory management
+* Support AI-powered Virtual Try-On
+* Enhance customer shopping experience
+* Enable intelligent analytics
+* Improve business decision-making
+
+---
+
+# 🔗 Official Team Project
+
+This internship was completed as part of a collaborative team project.
+
+**Official Project Repository:**
+
+https://github.com/TokaPriyanka/Raritone_project
+
+This repository contains my individual internship work, research, documentation, implementation planning, datasets, and AI/ML contributions. The complete production project is maintained in the official team repository linked above.
 
 ---
 
 # 📌 Conclusion
 
-This project is fully integrated with the **RARITONE dataset pipeline** and is designed for real-world backend deployment where dataset structure may vary but logic remains stable and modular.
+This internship provided practical exposure to Artificial Intelligence, Computer Vision, Machine Learning, Virtual Try-On technologies, Demand Forecasting, and collaborative software development. It strengthened my understanding of AI workflows, research methodologies, technical documentation, and real-world project collaboration.
 
 ---
+
+# © Copyright & Rights
+
+**© 2026 Praneetha. All Rights Reserved.**
+
+This repository represents my personal internship portfolio developed during the **Raritone Summer Internship 2026**.
+
+The research, documentation, implementation plans, datasets organization, Python programs, and portfolio content included here represent my individual contributions completed during the internship.
+
+The complete collaborative project, integrated application, and associated intellectual property belong to their respective owners and contributors.
+
+Please do not reproduce, redistribute, or use the contents of this repository without appropriate attribution.
