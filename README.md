@@ -185,7 +185,7 @@ This internship was completed as part of a collaborative team project.
 
 https://github.com/TokaPriyanka/Raritone_project
 
-This repository contains my individual internship work, research, documentation, implementation planning, datasets, and AI/ML contributions. The complete production project is maintained in the official team repository linked above.
+This repository represents my individual contributions as part of Team 1 (AI/ML) during the Raritone Summer Internship 2026. It includes the AI Product Assistant module assigned to me, featuring AI-powered Product Title, Product Description, SEO Keyword, and Product Tag Generation, along with supporting documentation and implementation. The complete collaborative project is maintained in the official team lead's repository linked above.
 
 ---
 
